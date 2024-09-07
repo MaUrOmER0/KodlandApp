@@ -92,6 +92,7 @@ bullets = pygame.sprite.Group()
 player = Player()
 all_sprites.add(player)
 
+#bucle que genera los enemigos 
 for i in range(8):
     e = Enemy()
     all_sprites.add(e)
